@@ -2,6 +2,14 @@
 
 using namespace std;
 
+/*
+For each character, the copies that survive must be the last
+occurrences needed by the target string. Scan s from right to left,
+keeping only the required number of occurrences of each character
+(from frequencies in t). The kept characters are the unique possible
+survivors. If they form t, answer YES; otherwise NO.
+*/
+
 int main(){
     
     int t;

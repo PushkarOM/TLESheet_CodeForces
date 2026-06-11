@@ -31,6 +31,7 @@ int main(){
         int cost = 0;
         while(lenReplace){
             cost += 1; // to dupe the array
+            
             if(lenReplace - maxFreq > 0){
                 cost += maxFreq; // to copy the elements
                 lenReplace -= maxFreq;
